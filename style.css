@@ -1,0 +1,64 @@
+body {
+    background-image: url("https://pro2-bar-s3-cdn-cf3.myportfolio.com/9acf481048a1eb11476746af25eb7a41/46461910879941.560ecd6e4cfed_rw_1920.jpg?h=ca38242cc15654102a7e0085d30704f4");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+  }
+h1 {
+    color:teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+    color: white;
+    background-color: teal; opacity: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background: grey;
+    border-top: solid teal 10px;
+    height: 75px;
+    width: 100%;
+    color: lightgray;
+    text-align: center;
+    bottom: 0;
+    padding-top: 1%;
+    position: fixed;
+}
+
+.container {
+    margin-top: 5%;
+    margin-left: 1.5%;
+}
+ .card-title {
+     border-bottom: solid lightgray;
+ }
+
+.img-thumbnail {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn {
+    background: teal;
+    padding: 2%;
+    width: 150px;
+}
+.btn:hover {
+    background:black;
+    padding: 2%;
+    width: 150px;
+}
+
+.form-group {
+    width: 80%;
+    margin-left: 2.5%;
+}
+
+#index-image {
+    float: left;
+    margin-right: 5%;
+}
+
+
