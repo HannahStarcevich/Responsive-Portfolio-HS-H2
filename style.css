@@ -18,18 +18,23 @@ h4 {
 footer {
     background: grey;
     border-top: solid teal 10px;
-    height: 75px;
+    height: 80px;
     width: 100%;
     color: lightgray;
     text-align: center;
     bottom: 0;
     padding-top: 1%;
-    position: fixed;
+    min-height: 10vh;
+}
+
+.navbar {
+    min-height: 10vh;
 }
 
 .container {
     margin-top: 5%;
     margin-left: 1.5%;
+    min-height: 80vh;
 }
  .card-title {
      border-bottom: solid lightgray;
@@ -56,9 +61,27 @@ footer {
     margin-left: 2.5%;
 }
 
+.link {
+    color: lightgray;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+.link:hover {
+    color: teal;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
 #index-image {
     float: left;
     margin-right: 5%;
 }
+
+#copy-right {
+    margin-bottom: 0pt;
+}
+
+
 
 
