@@ -1,26 +1,28 @@
 body {
-    background-image: url("https://pro2-bar-s3-cdn-cf3.myportfolio.com/9acf481048a1eb11476746af25eb7a41/46461910879941.560ecd6e4cfed_rw_1920.jpg?h=ca38242cc15654102a7e0085d30704f4");
+    background-image: url("https://jimmychin.com/wp-content/uploads/2016/10/JIC00624-1200x799.jpg");
     background-repeat: no-repeat;
+    background-size: 100%;
     background-attachment: fixed;
     position: relative;
-  }
+    width: 100vw;
+}
+
 h1 {
-    color:teal;
+    color: #005582;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h4 {
-    color: white;
-    background-color: teal; opacity: 100%;
+    color: #005582;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer {
-    background: grey;
-    border-top: solid teal 10px;
+    background: #004468;
+    border-top: 3pt solid #8e4219;
     height: 80px;
     width: 100%;
-    color: lightgray;
+    color: #ffffff;
     text-align: center;
     bottom: 0;
     padding-top: 1%;
@@ -29,6 +31,7 @@ footer {
 
 .navbar {
     min-height: 10vh;
+    border-bottom: 3pt solid #8e4219;
 }
 
 .container {
@@ -36,9 +39,10 @@ footer {
     margin-left: 1.5%;
     min-height: 80vh;
 }
- .card-title {
-     border-bottom: solid lightgray;
- }
+
+.card-title {
+    border-bottom: solid lightgray;
+}
 
 .img-thumbnail {
     margin-top: 5%;
@@ -46,12 +50,13 @@ footer {
 }
 
 .btn {
-    background: teal;
+    background: #005582;
     padding: 2%;
     width: 150px;
 }
+
 .btn:hover {
-    background:black;
+    background: #00c2c7;
     padding: 2%;
     width: 150px;
 }
@@ -81,7 +86,3 @@ footer {
 #copy-right {
     margin-bottom: 0pt;
 }
-
-
-
-
